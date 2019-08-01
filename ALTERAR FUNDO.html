@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ALTERAR FUNDO</title>
+</head>
+<body>
+<script type="text/javascript">
+	var op
+
+	op= parseInt(prompt("Escolha uma cor: \n1 - Azul \n2 - Verde \n3 - Rosa"));
+	switch(op){
+		case 1:
+		document.write('<style type="text/css">body{background-color: blue;}#topo{width:90%;height:100px;background-color: yellow; margin:0 auto;}#corpo{width:90%;height:500px;background-color:gold;margin:0 auto;}</style>');
+		break;
+
+		case 2:
+		document.write('<style type="text/css">body{background-color: green;}#topo{width:90%;height:100px;background-color: grey; margin: 0 auto;}#corpo{width:90%;height: 500px;background-color: black; margin: 0 auto;}</style>');
+		break;
+
+		case 3:
+		document.write('<style type="text/css">body{background-color: pink;}#topo{width:90%; height:100px;background-color: purple; margin: 0 auto;}#corpo{width:90%;height:500px;background-color: PaleVioletRed; margin: 0 auto;}</style>');
+		break;
+
+		default:
+		document.write('<body> OPÇÃO INVÁLIDA!!!</body><style type="text/css">body{background-color:black;color: white;font-size:100px;text-aligin:center;margin-top:25%;}</style>');
+	}
+	
+
+
+</script>
+<body>
+	<div id="topo">
+	</div>	
+		<br>
+		<div id="corpo">
+
+	</div>
+</body>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<meta charset="utef-8">
+<html>
+<head>
+	<title>EXERCICIO 23</title>
+</head>
+<body>
+<script type="text/javascript">
+	var celsius, escala;
+
+	celsius=parseInt(prompt("Digite a Temperatura em graus °Celsius:"));
+
+	escala=prompt("Escolha F para Farenheit ou K para Kelvin");
+
+	if(escala=="F" || escala=="f"){
+		alert("A temperatura em Farenheit "+celsius*9/5+32);
+	}
+
+	if(escala=="K" || escala=="k"){
+		alert("A temperatura em Kelvin "+celsius+273,15);
+	}
+	
+	else{
+		alert("Você não escolheu uma Temperatura infeliz");
+	}
+</script>
+</body>
+</html>

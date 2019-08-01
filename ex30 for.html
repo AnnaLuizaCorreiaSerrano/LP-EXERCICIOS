@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<meta charset="utef-8">
+<html>
+<head>
+	<title>EXERCICIO 30 FOR</title>
+</head>
+<body>
+<script type="text/javascript">
+var n1, n2;
+
+n1=parseInt(prompt("Digite um número"));
+n2=parseInt(prompt("Digite outro número"));
+if(n1<n2){
+
+for(var i = n1 ; i <= n2; i++) 
+{
+		if(i%2!=0){
+			document.write(i+ '<br>');
+		}
+	
+	
+}
+	} else if (n1>n2){
+
+	 for( var i = n1; i>=n2; i--)
+	 {
+	 	if(i%2!=0){
+
+	 		document.write(i+ '<br>');
+	 	}
+	 }
+	}else{
+//fim da estrutura for
+document.write("números iguais");
+}
+	
+</script>
+</body>
+</html>

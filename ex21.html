@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<meta charset="utef-8">
+<html>
+<head>
+	<title>EXERCICIO 21</title>
+</head>
+<body>
+<script type="text/javascript">
+	var n1,n2,n3,poteTop;
+	n1=parseInt(prompt("Digite o 1º Número"));
+	n2=parseInt(prompt("Digite o 2º Número"));
+	n3=parseInt(prompt("Digite o 3º Número"));
+
+	if(n1<n2){
+		poteTop=n1;
+		n1=n2;
+		n2=poteTop;
+}
+
+	if(n2<n3){
+	poteTop=n2;
+	n2=n3;
+	n3=poteTop;
+}
+
+	if(n1<n2){
+	poteTop=n1;
+	n1=n2;
+	n2=poteTop;
+}
+
+	document.write(" A Ordem Decrescente dos Números é "+n1+" "+n2+" "+n3);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lanchonete AnnaLu</title>
+	<meta charset="utf-8"/>
+</head>
+<body>
+<script type="text/javascript">
+	var lanche, bebida, acomp, op, vllanche,vlbebida,vlacomp,total;
+	op= parseInt(prompt("Escolha uma Opção : \n1 - Lanches: \n2 - Bebidas \n3- Acompanhamentos"));
+
+	switch(op){
+		case 1:
+		op= parseInt(prompt("escolha um Lanche: \n1 - x-Salada R$8,00- \n2 - X-bacon R$8,00 \n3 - X-tudo - R$10,00 "));
+
+			switch(op){
+				case 1:
+				lanche = "X-Salada";
+				vllanche= "R$8,00";
+				break;
+
+				case 2:
+				lanche= "X-bacon";
+				vllanche= "R$8,00";
+				break;
+
+				case 3:
+				lanche= "X-tudo";
+				vllanche= "R$ 10,00";
+
+			}
+
+
+			op= parseInt(prompt("escolha uma bebida: \n1 - Guaraná R$4,00- \n2 - Fanta R$8,00 \n3 - Coca-Cola - R$10,00 "));
+
+				switch(op){
+
+					case 1:
+					bebida= "Guaraná";
+					vlbebida= "R$ 4,00";
+
+					case 2:
+					bebida = "Fanta";
+					vlbebida = "R$ 4,00";
+
+					case 3:
+					bebida= "Coca-Cola";
+					vlbebida= "R$ 5,00";
+				}
+
+				op= parseInt(prompt("Escolha um Acompanhamento: \n1 - Barata chips R$10,00- \n2 - Barata Doce Salgada R$ 12,00 - \n3 - Barata Salgada Doce R$12,00"));
+
+				switch(op){
+					
+					case 1:
+					acomp= "Barata Chips";
+					vlacomp= "R$10,00";
+
+					case 2:
+					acomp="Barata Doce Salgada";
+					vlacomp= "R$ 12,00";
+
+					case 3:
+					acomp="Barata Salgada Doce";
+					vlacomp="R$12,00";
+
+
+				}
+
+				total= (vllanche+vlbebida+vlacomp);
+
+				alert("O total da sua Compra foi de :" +(total)+"\n Com seus respectivos preços :\n lanche :" +( lanche+vllanche )+ " \n Bebidas : " +( bebida+vlbebida )+ "\n Acompanhamentos: "+( acomp+vlacomp ));
+
+
+		}	
+
+	
+
+	
+
+
+
+</script>
+
+</body>
+</html>
